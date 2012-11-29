@@ -1,5 +1,5 @@
 /** Override bootstrap variables **/
-$baseFontSize: 13px !default;
+$baseFontSize: 9pt !default;
 $baseLineHeight: 18px !default;
 
 @import "bootstrap";
@@ -7,14 +7,14 @@ $baseLineHeight: 18px !default;
 @import 'font-awesome';
 
 /** GitLab colors **/
-$link_color: #3A89A3;
-$blue_link: #2FA0BB;
-$style_color: #474D57;
-$hover: #D9EDF7;
-$hover_border: #ADF;
+$link_color: #aa0000;
+$blue_link: #aa0000;
+$style_color: #444444;
+$hover: #f5f5cf;
+$hover_border: #dee08c;
 
 /** GitLab Fonts **/
-@font-face { font-family: Korolev; src: font-url('korolev-medium-compressed.otf'); }
+@font-face { font-family: Verdana, sans-serif; }
 $monospace: 'Menlo', 'Liberation Mono', 'Consolas', 'Courier New', 'andale mono', 'lucida console', monospace;
 
 /** MIXINS **/

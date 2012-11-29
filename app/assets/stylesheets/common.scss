@@ -597,10 +597,11 @@ li.note {
 
 .error_message {
   @extend .cred;
-  border-left: 4px solid #E99;
+  border: 1px solid #aa0000;
   padding: 10px;
   margin-bottom: 10px;
-  background: #FEE;
+  background: #F5CFD1;
+  color:#990000;
   padding-left: 20px;
 }
 

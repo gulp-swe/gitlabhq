@@ -3,15 +3,12 @@
  *
  */
 ul.main_menu {
-  border-radius: 4px;
   margin: auto;
   margin:30px 0;
-  border:1px solid #BBB;
-  height:37px;
-  @include bg-gray-gradient;
+  height:25px;
+  background: #dcdddf;
   position:relative;
   overflow:hidden;
-  @include shade;
   .count {
     position: relative;
 	  top: -1px;
@@ -39,9 +36,7 @@ ul.main_menu {
     margin: 0;
     display: table-cell;
     width: 1%;
-    border-right: 1px solid #DDD;
-    border-left: 1px solid #EEE;
-    border-bottom:2px solid #CFCFCF;
+    border-left: 1px solid #f1f1f2;
 
     &:first-child{
       -webkit-border-top-left-radius: 4px;
@@ -54,13 +49,11 @@ ul.main_menu {
     }
 
     &.active {
-      background-color:#D5D5D5;
-      border-right: 1px solid #BBB;
-      border-left: 1px solid #BBB;
-      border-radius: 0 0 1px 1px;
+      background-color:#b9bbbf;
       &:first-child{
         border-bottom:none;
         border-left:none;
+        color:#ffffff;
       }
     }
 
@@ -69,6 +62,7 @@ ul.main_menu {
         background: url(home_icon.PNG) no-repeat center center;
         text-indent:-9999px;
         min-width:20px;
+        padding-top:0;
         img {
           position:relative;
           top:4px;
@@ -80,11 +74,9 @@ ul.main_menu {
     display: block;
     text-align: center;
     font-weight:bold;
-    height:35px;
-    line-height:36px;
+    height:25px;
     color: $style_color;
-    text-shadow:0 1px 1px white;
-    padding:0 10px;
+    padding:3px 3px 0;
   }
 }
 /*
