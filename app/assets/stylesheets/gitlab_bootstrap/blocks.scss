@@ -59,11 +59,9 @@
  *
  */
 .ui-box {
-  background:#F9F9F9;
+  background:#F1F1F2;
   margin-bottom: 25px;
-  @include round-borders-all(4px);
   border-color: #CCC;
-  @include solid_shade;
 
   &.white {
     background:#fff;
@@ -75,15 +73,12 @@
 
   h5, .title {
     padding: 0 10px;
-    @include round-borders-top(4px);
-    @include bg-gray-gradient;
     border-bottom: 1px solid #bbb;
 
     &.small {
       line-height: 28px;
       font-size: 14px;
       line-height:28px;
-      text-shadow: 0 1px 1px white;
     }
 
     form {
@@ -103,8 +98,7 @@
   }
 
   .bottom {
-    @include bg-gray-gradient;
-    @include round-borders-bottom(4px);
+    background:#f1f1f2;
     border-bottom:none;
     border-top: 1px solid #bbb;
   }
@@ -136,13 +130,12 @@
 
   li, .wll {
     padding:10px;
+    background-color:#f1f1f2;
     &:first-child {
-      @include round-borders-top(4px);
       border-top:none;
     }
 
     &:last-child {
-      @include round-borders-bottom(4px);
       border:none;
     }
   }

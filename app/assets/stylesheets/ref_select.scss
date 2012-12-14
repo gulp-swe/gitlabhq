@@ -69,7 +69,6 @@
     }
 
     .chzn-search {
-      @include bg-gray-gradient;
       input {
         min-width:165px;
         border-color: #CCC;
@@ -78,7 +77,6 @@
   }
 
   .chzn-single {
-    @include bg-light-gray-gradient;
 
     div {
       background:transparent;
